@@ -3,7 +3,7 @@
 The simplest website written in Elm
 
 ## Run
-```
+```bash
 npm install -g elm
 elm package install evancz/elm-html
 elm make hello.elm --warn --output index.html
