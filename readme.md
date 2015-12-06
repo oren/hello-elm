@@ -26,8 +26,7 @@ Where to find the Html module?
 ```elm
 main : Html.Html
 ```
-This line is called Type Annotation in Elm. It tells the Elm compailer what type is the main variable.
-In this case the main variable is of type Html.Html.
+This line is called Type Annotation in Elm. It tells the Elm compailer what type is the main variable. In this case the main variable is of type [Html.Html](http://package.elm-lang.org/packages/evancz/elm-html/4.0.2/Html#Html). The reason for that is that the [text](http://package.elm-lang.org/packages/evancz/elm-html/4.0.2/Html#text) function returns Html.
 
 ```elm
 main =
