@@ -32,4 +32,7 @@ This line is called Type Annotation in Elm. It tells the Elm compiler what type 
 main =
   text "Hello, World!"
 ```
-TBD
+This is simple assignment - the return value of the `text` function is assigned to the `main` variable.
+Notice that it could have been written in a single line but the convention in Elm is to start the body of a function in a new line.
+
+
