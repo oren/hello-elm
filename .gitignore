@@ -2,3 +2,6 @@ tags
 hello-world/elm-package.json
 hello-world/elm-stuff
 hello-world/index.html
+hello-start-app/elm-package.json
+hello-start-app/elm-stuff
+hello-start-app/elm.js
