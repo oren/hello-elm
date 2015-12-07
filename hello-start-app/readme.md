@@ -14,3 +14,9 @@ npm install -g elm
 elm package install evancz/elm-html
 elm package install evancz/start-app
 ```
+
+**Run**
+```
+elm-reactor
+```
+open [http://0.0.0.0:8000](http://0.0.0.0:8000)
