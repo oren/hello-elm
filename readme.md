@@ -2,15 +2,34 @@
 
 The simplest website written in Elm
 
-## Run
+## Install Elm
 ```bash
 npm install -g elm
+```
+
+## Build a website
+
+**Create hello.elm**
+
+``` elm
+import Html exposing (text)
+
+main : Html.Html
+main =
+  text "Hello, World!"
+```
+
+**Install the Html package**
+```
 elm package install evancz/elm-html
+```
+
+**Compile hello.elm into index.html**
+```
 elm make hello.elm --warn --output index.html
 ```
 
 Notice a new file called index.html. Open it with your browser. You should see 'Hello, World!'.
-
 
 ## Explanation of every line
 
