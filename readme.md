@@ -7,7 +7,7 @@ The simplest website written in Elm
 npm install -g elm
 ```
 
-## Build a website
+## Create the website
 
 **Create hello.elm**
 
